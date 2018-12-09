@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SkyComTech</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="favicon.ico" rel="shortcut icon">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css"/>
+</head>
+<body>
+
+    <nav>
+        <div class="navWrapper">
+            <div class="navLeft">
+                <h1>Aris Balomenos</h1>
+            </div>
+            <div class="navRight">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="contact">
+            <h2>Contact</h2>
+            <hr>
+            <div class="form">
+                <form method="post" action="#" name="contactform" id="contactform">
+                    <p>Name</p>
+                    <input name="name" type="text" onfocus="if(this.value == 'John Smith') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'John Smith'; }" value="John Smith">
+                    <br><br>
+                    <p>Email</p>
+                    <input name="email" type="text" onfocus="if(this.value == 'example@gmail.com') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'example@gmail.com'; }" value="example@gmail.com">
+                    <br><br><br>
+                    <p>Message</p>
+                    <textarea name="comments" type="text" onfocus="if(this.value == 'Type your message...') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Type your message...'; }" value="Type your message..."></textarea>
+                    <br><br>
+                    <input type="submit" id="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        2018 &copy; SkyComTech
+    </footer>
+
+</body>
+</html>
