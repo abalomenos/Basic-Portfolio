@@ -147,6 +147,10 @@ hr {
 
 /*------------ About Page ------------*/
 
+.about p {
+    text-align: justify;
+}
+
 img.profile {
     float: left;
     padding: 10px 20px 20px 0px;
