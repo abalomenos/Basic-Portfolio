@@ -13,8 +13,8 @@ body {
 
 nav {
     position: fixed;
-    height: 72px;
     width: 100%;
+    height: 72px;
     background-color: #ffffff;
     border-bottom: 4px solid #cccccc;
     z-index: 1; /* To avoid content from going over navbar when scrolling */
@@ -22,7 +22,7 @@ nav {
 
 section {
     width: 960px;
-    padding-top: 150px ;
+    padding-top: 150px;
     margin: 0 auto;
 }
 
@@ -46,6 +46,7 @@ footer {
     margin-bottom: 150px;
     color: #777777;
     background-color: #ffffff;
+    border-color: #dddddd;
     font-size: 16px;
     line-height: 1.5;
     text-align: left;
@@ -62,8 +63,8 @@ footer {
 h1 {
     font-size: 24px;
     font-weight: bold;
-    border-color: #4aaaa5;
     color: #ffffff;
+    border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -71,8 +72,8 @@ h1 {
 h2 {
     font-size: 34px;
     font-weight: bold;
-    border-color: #cccccc;
     color: #4aaaa5;
+    border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -80,7 +81,7 @@ h2 {
 hr {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid#cccccc;
+    border: 1px solid #dddddd;
 }
 
 /*---------- Main Structure End ----------*/
@@ -101,8 +102,6 @@ hr {
 
 .navRight {
     float: right;
-    background-color: #ffffff;
-    color: #cccccc;
     font-size: 18px;
     margin: 24px auto;
 }
@@ -110,12 +109,11 @@ hr {
 /* Navigation menu items */
 .navWrapper ul li {
     display: inline-block;
-    color: #b1adb3;
 }
 
 /* Navigation separator | */
 .navWrapper ul li+li {
-	border-left: 1px solid #cccccc;
+	border-left: 1px solid #dddddd;
 }
  
 .navWrapper a {
@@ -126,11 +124,11 @@ hr {
 }
 
 .navWrapper a:link {
-    color: #cccccc;
+    color: #777777;
 }
 
 .navWrapper a:visited {
-    color: #cccccc;
+    color: #777777;
 }
 
 .navWrapper a:hover {
@@ -139,9 +137,10 @@ hr {
 }
 
 .navWrapper a:active {
-    background-color: #4aaaa5b3;
+    background-color: #53BFBA;
     color: #ffffff;
 }
+
 /*---------- Navigation End ----------*/
 
 
@@ -174,7 +173,7 @@ img.profile {
     display: inline-block;
 	width: 270px;
     height: 200px;
-    border: 1px solid#4aaaa5;
+    border: 1px solid #dddddd;
     margin: 15px;
     padding: 0;
     transition: all .2s ease-in-out; /* Scale on Hover with Transition */
@@ -191,7 +190,9 @@ img.profile {
 }
 
  /* Scale on Hover with Transition */
-.portfolio li:hover { transform: scale(1.1); }
+.portfolio li:hover {
+    transform: scale(1.1);
+}
 
 /*---------- Portfolio Page End ----------*/
 
@@ -200,20 +201,20 @@ img.profile {
 
 .form {
     width: 910px; /* 960 - 50 from padding */
-    margin: 0 auto ;
+    margin: 0 auto;
     padding: 0 auto;
 }
 
 #contactform {
     width: 100%;
-    margin: 0 auto ;
+    margin: 0 auto;
     padding: 0 auto;
 }
 
 input[type=text], textarea {
     width: 880px; /* 960 - 50 -30 from padding */
     padding: 15px;
-    border: 1px solid #cccccc;
+    border: 1px solid #dddddd;
     color: #cccccc;
     border-radius: 4px; /* rounded corners */
 }
@@ -221,7 +222,6 @@ input[type=text], textarea {
 textarea {
     height: 200px;
 }
-
 
 #submit {
 	background-color: #4aaaa5;
@@ -233,7 +233,7 @@ textarea {
 
 #submit:hover
 {
-  background-color: #4aaaa5b3;
+  background-color: #53BFBA;
 }
 
 /*---------- Contact Page End ----------*/
